@@ -1,0 +1,52 @@
+[project]
+name = "melodycomp"
+version = "0.1.0"
+description = "An AI agent for music creation to assist with writer's block using a RAG pipeline and a local LLM."
+authors = [
+    { name = "Dan Vicente", email = "dan.vicente.ihanus@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+# These are the core dependencies required for the application to run.
+dependencies = [
+    "mlx-lm",               
+    "langchain",            
+    "langchain-text-splitters", 
+    "chromadb",             
+    "sentence-transformers",
+    "huggingface-hub",      
+    "hf-transfer",          
+    "pretty-midi>=0.2.11",          
+    "google-generativeai",
+    "PyYAML",
+    "streamlit",            
+    "python-dotenv",
+    "setuptools",
+    "torch",
+    "numpy",
+    "symusic",
+    "sentencepiece",
+    "transformers",
+    "torch",
+    "accelerate",
+    "polars",
+    "llama-cpp-python",
+    "streamlit-desktop-app",
+    "langchain_community",
+    "langchain-google-genai",
+    "streamlit-desktop-app"
+]
+
+
+[project.optional-dependencies]
+dev = [
+    "ruff",                 
+    "pytest",               
+    "ipykernel",            
+]
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "W", "I"] # Standard checks: pyflakes, pycodestyle, etc.

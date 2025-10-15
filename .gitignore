@@ -1,0 +1,13 @@
+.venv
+*.aiff
+*.midi
+config.yaml
+.DS_Store
+.vscode
+.python-version
+__pycache__
+*.gguf
+models/src/*
+*.gguf
+*.csv
+*.egg-info

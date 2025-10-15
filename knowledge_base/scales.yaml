@@ -1,0 +1,98 @@
+# Musical scale intervals (semitones from root)
+scale_intervals:
+  major: [0, 2, 4, 5, 7, 9, 11]
+  minor: [0, 2, 3, 5, 7, 8, 10]  # Natural minor
+  harmonic_minor: [0, 2, 3, 5, 7, 8, 11]
+  melodic_minor: [0, 2, 3, 5, 7, 9, 11]
+  dorian: [0, 2, 3, 5, 7, 9, 10]
+  phrygian: [0, 1, 3, 5, 7, 8, 10]
+  lydian: [0, 2, 4, 6, 7, 9, 11]
+  mixolydian: [0, 2, 4, 5, 7, 9, 10]
+  locrian: [0, 1, 3, 5, 6, 8, 10]
+
+# Chromatic notes
+notes: ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
+
+# Chord qualities available for each scale degree (0-indexed)
+# Each degree can have multiple chord type variations
+chord_types_per_degree:
+  major:
+    - ["", "maj7", "add9", "maj9", "6"]  # I
+    - ["m", "m7", "m9", "m11"]  # ii
+    - ["m", "m7", "m9"]  # iii
+    - ["", "maj7", "maj9", "6"]  # IV
+    - ["", "7", "9", "13"]  # V
+    - ["m", "m7", "m9"]  # vi
+    - ["dim", "m7b5"]  # vii°
+  
+  minor: 
+    - ["m", "m7", "m9"]  # i
+    - ["dim", "m7b5"]  # ii°
+    - ["", "maj7", "maj9"]  # ♭III
+    - ["m", "m7", "m9"]  # iv
+    - ["m", "m7"]  # v (natural minor - no dominant function)
+    - ["", "maj7"]  # ♭VI
+    - ["", "maj7"]  # ♭VII
+  
+  harmonic_minor:
+    - ["m", "m7", "m(maj7)"]  # i
+    - ["dim", "m7b5"]  # ii°
+    - ["", "maj7", "aug", "maj7#5"]  # ♭III+ (augmented)
+    - ["m", "m7"]  # iv
+    - ["", "7", "7b9", "7#9"]  # V (dominant - creates tension)
+    - ["", "maj7"]  # ♭VI
+    - ["dim", "dim7"]  # vii° (fully diminished)
+  
+  melodic_minor:
+    - ["m", "m7", "m(maj7)", "m6"]  # i
+    - ["m", "m7"]  # ii
+    - ["", "maj7", "aug", "maj7#5"]  # ♭III+
+    - ["", "7", "9", "13"]  # IV (lydian dominant sound)
+    - ["", "7", "9", "13"]  # V
+    - ["dim", "m7b5"]  # vi°
+    - ["dim", "m7b5", "alt7"]  # vii° (altered dominant)
+  
+  dorian:
+    - ["m", "m7", "m9", "m11"]  # i
+    - ["m", "m7", "m9"]  # ii
+    - ["", "maj7"]  # ♭III
+    - ["", "7", "9", "13"]  # IV
+    - ["m", "m7"]  # v
+    - ["dim", "m7b5"]  # vi°
+    - ["", "maj7"]  # ♭VII
+  
+  phrygian:
+    - ["m", "m7", "m9"]  # i
+    - ["", "maj7"]  # ♭II
+    - ["", "7"]  # ♭III
+    - ["m", "m7"]  # iv
+    - ["dim", "m7b5"]  # v°
+    - ["", "maj7"]  # ♭VI
+    - ["m", "m7"]  # ♭vii
+  
+  lydian:
+    - ["", "maj7", "maj9", "#11"]  # I (characteristic #11)
+    - ["", "7", "9"]  # II
+    - ["m", "m7"]  # iii
+    - ["dim", "m7b5"]  # #iv°
+    - ["", "maj7"]  # V
+    - ["m", "m7"]  # vi
+    - ["m", "m7"]  # vii
+  
+  mixolydian:
+    - ["", "7", "9", "13"]  # I (dominant sound)
+    - ["m", "m7"]  # ii
+    - ["dim", "m7b5"]  # iii°
+    - ["", "maj7"]  # IV
+    - ["m", "m7"]  # v
+    - ["m", "m7"]  # vi
+    - ["", "maj7"]  # ♭VII
+  
+  locrian:
+    - ["dim", "m7b5"]  # i°
+    - ["", "maj7"]  # ♭II
+    - ["m", "m7"]  # ♭iii
+    - ["m", "m7"]  # iv
+    - ["", "maj7"]  # ♭V
+    - ["", "7"]  # ♭VI
+    - ["m", "m7"]  # ♭vii

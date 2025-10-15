@@ -1,0 +1,1070 @@
+[
+    {
+      "instruction": "Generate an 8-bar atmospheric trip-hop progression in A minor that builds tension towards the end.",
+      "context": "Trip-hop emerged in the 1990s, characterized by slow tempos (60-90 BPM), minor keys, and jazz-influenced harmony. Common elements include minor 7th chords, major 7th chords for contrast, and suspended chords. Tension is typically built using dominant chords (V7), diminished chords, or suspended chords that delay resolution.",
+      "output": "['Am7', 'Gmaj7', 'Fmaj7', 'Gmaj7', 'Am7', 'Dm7', 'Fmaj7', 'E7sus4']",
+      "metadata": {
+        "genre": "trip-hop",
+        "key": "A minor",
+        "length_bars": 8,
+        "tempo_range": "70-85 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["atmospheric", "tense", "moody"]
+      }
+    },
+    {
+      "instruction": "Create a 4-bar bebop jazz turnaround in Bb major with chromatic alterations.",
+      "context": "Bebop jazz (1940s) features fast tempos, complex harmony, and chromatic passing chords. A turnaround is a chord progression that leads back to the tonic, typically using the I-VI-II-V pattern with substitutions. Tritone substitutions and diminished chords are common bebop techniques for adding tension and chromaticism.",
+      "output": "['Bbmaj7', 'G7#5', 'Cm7', 'F7b9']",
+      "metadata": {
+        "genre": "bebop",
+        "key": "Bb major",
+        "length_bars": 4,
+        "tempo_range": "200-280 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["energetic", "sophisticated", "swinging"]
+      }
+    },
+    {
+      "instruction": "Write a 16-bar modal jazz progression in D Dorian with minimal harmonic movement.",
+      "context": "Modal jazz, pioneered by Miles Davis in the late 1950s, uses modes rather than functional harmony. D Dorian (D-E-F-G-A-B-C) creates a minor sound with a raised 6th scale degree. Modal compositions often sustain chords for long periods, allowing melodic exploration. The subdominant (G7) and tonic (Dm7) are primary chords in D Dorian.",
+      "output": "['Dm7', 'Dm7', 'Dm7', 'Dm7', 'Gm7', 'Gm7', 'Dm7', 'Dm7', 'Dm7', 'Dm7', 'Gm7', 'Gm7', 'Dm7', 'Dm7', 'Dm7', 'Dm7']",
+      "metadata": {
+        "genre": "modal jazz",
+        "key": "D Dorian",
+        "length_bars": 16,
+        "tempo_range": "120-160 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["hypnotic", "meditative", "spacious"]
+      }
+    },
+    {
+      "instruction": "Generate a 12-bar blues progression in E major with jazz extensions.",
+      "context": "The 12-bar blues is a fundamental form in jazz, blues, and rock. The basic structure uses I7-IV7-V7 chords. Jazz blues adds extensions (9ths, 13ths) and substitutions like the ii-V in bars 9-10. Dominant 7th chords create tension throughout, giving the blues its characteristic sound.",
+      "output": "['E7', 'A7', 'E7', 'E7', 'A7', 'A7', 'E7', 'E7', 'F#m7', 'B7', 'E7', 'B7']",
+      "metadata": {
+        "genre": "jazz blues",
+        "key": "E major",
+        "length_bars": 12,
+        "tempo_range": "100-140 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["bluesy", "groovy", "soulful"]
+      }
+    },
+    {
+      "instruction": "Create an 8-bar uplifting pop chorus progression in C major.",
+      "context": "Modern pop music often uses simple, memorable chord progressions. The I-V-vi-IV progression (and its variations) is extremely common in pop choruses because it's emotionally satisfying and easy to remember. Pop progressions typically change chords every 1-2 bars and avoid complex jazz extensions, focusing on triads and occasional 7th chords.",
+      "output": "['C', 'G', 'Am', 'F', 'C', 'G', 'F', 'G']",
+      "metadata": {
+        "genre": "pop",
+        "key": "C major",
+        "length_bars": 8,
+        "tempo_range": "110-130 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["uplifting", "catchy", "bright"]
+      }
+    },
+    {
+      "instruction": "Write a 4-bar bossa nova progression in G major with characteristic chromatic voice leading.",
+      "context": "Bossa nova, originating in 1950s Brazil, blends samba rhythms with jazz harmony. It features smooth chromatic voice leading, major 7th chords, and the characteristic ii-V-I progression. The #IVm7b5 chord (C#m7b5 in G major) is a signature bossa nova color, creating a sophisticated, slightly melancholic sound typical of Antonio Carlos Jobim's compositions.",
+      "output": "['Gmaj7', 'C#m7b5', 'F#7b9', 'Bm7']",
+      "metadata": {
+        "genre": "bossa nova",
+        "key": "G major",
+        "length_bars": 4,
+        "tempo_range": "120-140 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["smooth", "romantic", "sophisticated"]
+      }
+    },
+    {
+      "instruction": "Generate a 16-bar progressive house buildup in F# minor with rising tension.",
+      "context": "Progressive house builds energy through repetition and gradual addition of elements. Chord progressions are often simple, focusing on atmosphere and momentum. Minor keys create darker moods. Tension is built by staying away from the tonic resolution until key moments, using iv-v-vi-VII progressions (borrowed from natural minor) to maintain drive.",
+      "output": "['F#m', 'Bm', 'C#m', 'E', 'F#m', 'Bm', 'C#m', 'E', 'F#m', 'Bm', 'D', 'E', 'F#m', 'Bm', 'D', 'E']",
+      "metadata": {
+        "genre": "progressive house",
+        "key": "F# minor",
+        "length_bars": 16,
+        "tempo_range": "120-130 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["building", "euphoric", "driving"]
+      }
+    },
+    {
+      "instruction": "Create an 8-bar lo-fi hip-hop progression in E minor with jazzy, melancholic chords.",
+      "context": "Lo-fi hip-hop draws heavily from jazz, using extended chords and chromatic harmony to create a nostalgic, relaxed atmosphere. Minor keys and major 7th chords are prevalent. The genre often features slow harmonic rhythm and chord progressions that avoid strong resolutions, maintaining a dreamy, unresolved quality. Borrowed chords from parallel major add color.",
+      "output": "['Em7', 'Cmaj7', 'Am7', 'Bm7', 'Em7', 'Am7', 'Dmaj7', 'Gmaj7']",
+      "metadata": {
+        "genre": "lo-fi hip-hop",
+        "key": "E minor",
+        "length_bars": 8,
+        "tempo_range": "70-90 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["melancholic", "nostalgic", "relaxed"]
+      }
+    },
+    {
+      "instruction": "Write a 4-bar trap progression in D minor with dark, aggressive character.",
+      "context": "Trap music uses minimal harmonic movement with dark, ominous progressions. Minor keys dominate, often using the natural minor scale. Progressions frequently emphasize the i-VI-III-VII pattern or even simpler two-chord vamps. The harmonic simplicity allows the rhythm, bass, and production to take center stage. Sustained pads and sparse changes create space for 808 bass and hi-hats.",
+      "output": "['Dm', 'Bb', 'F', 'C']",
+      "metadata": {
+        "genre": "trap",
+        "key": "D minor",
+        "length_bars": 4,
+        "tempo_range": "130-160 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["dark", "aggressive", "heavy"]
+      }
+    },
+    {
+      "instruction": "Generate a 4-bar reggae progression in G major with laid-back feel.",
+      "context": "Reggae typically emphasizes the offbeat (the 'skank'), with chords played on beats 2 and 4. Progressions are simple and repetitive, often using major chords with occasional minor chords. The I-IV-V-I pattern is common, sometimes with vi substituted. The simplicity creates space for the rhythm section and vocals to shine, and the major tonality contributes to reggae's positive, uplifting vibe.",
+      "output": "['G', 'C', 'D', 'G']",
+      "metadata": {
+        "genre": "reggae",
+        "key": "G major",
+        "length_bars": 4,
+        "tempo_range": "60-90 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["laid-back", "positive", "groovy"]
+      }
+    },
+    {
+      "instruction": "Create an 8-bar neo-soul progression in Bb major with rich jazzy harmony.",
+      "context": "Neo-soul blends R&B with jazz harmony, featuring extended chords (9ths, 11ths, 13ths) and smooth voice leading. Influenced by Stevie Wonder and jazz, neo-soul uses chromatic passing chords and sophisticated substitutions while maintaining a groove-oriented feel. Major 7th chords, altered dominants, and ii-V progressions create a warm, sophisticated sound.",
+      "output": "['Bbmaj9', 'Dm7', 'Gm7', 'C7#9', 'Cm7', 'F7b9', 'Bbmaj7', 'Ebmaj7']",
+      "metadata": {
+        "genre": "neo-soul",
+        "key": "Bb major",
+        "length_bars": 8,
+        "tempo_range": "80-100 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["smooth", "soulful", "sophisticated"]
+      }
+    },
+    {
+      "instruction": "Write a 16-bar ambient progression in C# minor that creates a spacious, ethereal atmosphere.",
+      "context": "Ambient music focuses on texture and atmosphere over traditional song structure. Progressions move slowly with sustained chords, often changing every 2-4 bars. Minor keys and suspended chords create openness and lack of resolution. Modal interchange and non-functional harmony are common, avoiding traditional cadences to maintain an floating, timeless quality.",
+      "output": "['C#m7', 'C#m7', 'Amaj7', 'Amaj7', 'Emaj7', 'Emaj7', 'Bmaj7', 'Bmaj7', 'C#m7', 'C#m7', 'F#m7', 'F#m7', 'Amaj7', 'Amaj7', 'Emaj7', 'Emaj7']",
+      "metadata": {
+        "genre": "ambient",
+        "key": "C# minor",
+        "length_bars": 16,
+        "tempo_range": "60-80 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["spacious", "ethereal", "meditative"]
+      }
+    },
+    {
+      "instruction": "Generate a 4-bar funk progression in E minor with syncopated, groovy changes.",
+      "context": "Funk emphasizes the 'one' (downbeat) while creating syncopated rhythms throughout. Chord progressions are often simple, using minor 7th and dominant 7th chords to create a tense, danceable groove. The harmonic rhythm might be slower than the rhythmic complexity suggests. Minor blues scales and the use of 9th chords add flavor. James Brown and Parliament-Funkadelic exemplify this style.",
+      "output": "['Em7', 'Em7', 'A7', 'Em7']",
+      "metadata": {
+        "genre": "funk",
+        "key": "E minor",
+        "length_bars": 4,
+        "tempo_range": "90-120 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["groovy", "funky", "danceable"]
+      }
+    },
+    {
+      "instruction": "Create an 8-bar indie rock progression in A major with nostalgic, melodic character.",
+      "context": "Indie rock often uses guitar-friendly progressions with a mix of major and minor chords. Influenced by alternative rock and power pop, progressions balance simplicity with unexpected turns. Suspended chords and added tones (like add9) are common. The emotional palette ranges from melancholic to uplifting, often within the same progression.",
+      "output": "['A', 'F#m', 'D', 'E', 'A', 'F#m', 'Bm', 'E']",
+      "metadata": {
+        "genre": "indie rock",
+        "key": "A major",
+        "length_bars": 8,
+        "tempo_range": "120-140 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["nostalgic", "melodic", "earnest"]
+      }
+    },
+    {
+      "instruction": "Write a 12-bar gospel progression in F major with powerful, uplifting movement.",
+      "context": "Gospel music features rich harmony with strong IV and V movements, creating powerful cadences. Extended chords (particularly major 7ths, 9ths, and suspended chords) add depth. The harmonic rhythm is often slower, allowing for vocal embellishment and call-and-response. Progressions frequently use plagal (IV-I) cadences alongside authentic (V-I) cadences, creating a sense of affirmation and resolution.",
+      "output": "['F', 'Bb', 'F', 'C7', 'F', 'Bb', 'F', 'Dm', 'Gm7', 'C7', 'F', 'Bb']",
+      "metadata": {
+        "genre": "gospel",
+        "key": "F major",
+        "length_bars": 12,
+        "tempo_range": "70-100 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["uplifting", "powerful", "spiritual"]
+      }
+    },
+    {
+      "instruction": "Generate a 4-bar flamenco progression in E Phrygian with characteristic Spanish color.",
+      "context": "Flamenco uses the Phrygian mode (characterized by a lowered 2nd scale degree) which gives it a distinctly Spanish sound. The progression often emphasizes the movement between the iv and I (Am to E in E Phrygian). Flamenco harmony is relatively simple but the lowered 2nd degree (F in E Phrygian) creates immediate tension and resolution. This progression underlies passionate guitar and vocal improvisations.",
+      "output": "['E', 'F', 'G', 'Am', 'G', 'F', 'E', 'E']",
+      "metadata": {
+        "genre": "flamenco",
+        "key": "E Phrygian",
+        "length_bars": 4,
+        "tempo_range": "120-160 BPM",
+        "time_signature": "12/8",
+        "emotion_tags": ["passionate", "dramatic", "Spanish"]
+      }
+    },
+    {
+      "instruction": "Create an 8-bar drum and bass progression in B minor with dark, energetic movement.",
+      "context": "Drum and bass (jungle) features extremely fast tempos (160-180 BPM) with complex breakbeats, but the chord progressions are often simple and spacious to support the rhythmic intensity. Minor keys dominate, with progressions that create tension and release. The harmonic rhythm is typically slow (chords sustained for 2-4 bars), allowing the fast percussion and bass to drive the energy.",
+      "output": "['Bm', 'Bm', 'G', 'G', 'A', 'A', 'F#', 'F#']",
+      "metadata": {
+        "genre": "drum and bass",
+        "key": "B minor",
+        "length_bars": 8,
+        "tempo_range": "160-180 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["dark", "energetic", "intense"]
+      }
+    },
+    {
+      "instruction": "Write a 4-bar country progression in G major with classic Nashville sound.",
+      "context": "Country music often uses simple, singable progressions based on I-IV-V relationships. The Nashville Number System codified these patterns. Progressions are straightforward, emphasizing strong melodies and storytelling lyrics. Major keys predominate, creating an optimistic or heartfelt mood. The I-V-vi-IV progression and variations are extremely common, as are simple I-IV-I-V patterns.",
+      "output": "['G', 'C', 'G', 'D']",
+      "metadata": {
+        "genre": "country",
+        "key": "G major",
+        "length_bars": 4,
+        "tempo_range": "100-140 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["heartfelt", "traditional", "storytelling"]
+      }
+    },
+    {
+      "instruction": "Generate a 16-bar tech house progression in A minor with hypnotic, repetitive structure.",
+      "context": "Tech house prioritizes groove and rhythm over harmonic complexity. Progressions are minimal and repetitive, often cycling through 2-4 chords for extended periods. This hypnotic quality keeps dancers engaged while allowing DJs to mix tracks seamlessly. Minor keys are common, and the sparse harmony leaves space for percussion, bass, and subtle production elements to evolve.",
+      "output": "['Am', 'Am', 'Am', 'Am', 'Dm', 'Dm', 'Dm', 'Dm', 'Am', 'Am', 'Am', 'Am', 'F', 'F', 'E', 'E']",
+      "metadata": {
+        "genre": "tech house",
+        "key": "A minor",
+        "length_bars": 16,
+        "tempo_range": "120-130 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["hypnotic", "groovy", "minimal"]
+      }
+    },
+    {
+      "instruction": "Create a 4-bar Latin jazz montuno in C major with syncopated piano rhythm.",
+      "context": "Latin jazz montuno patterns feature syncopated chord voicings played on piano, creating rhythmic drive. The harmony often uses two-chord vamps or simple progressions based on I and V. Dominant 7th chords and suspended chords add tension. The rhythmic placement of chords is as important as the harmony itself, with strong emphasis on the 'and' of beats creating forward momentum typical of salsa and mambo.",
+      "output": "['C6/9', 'G7', 'C6/9', 'G7']",
+      "metadata": {
+        "genre": "latin jazz",
+        "key": "C major",
+        "length_bars": 4,
+        "tempo_range": "160-220 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["energetic", "syncopated", "danceable"]
+      }
+    },
+    {
+      "instruction": "Write an 8-bar emo/pop-punk progression in D major with emotional intensity.",
+      "context": "Emo and pop-punk use power chords and progressions that balance angst with melody. Progressions often move between major and minor chords to create emotional contrast. The vi-IV-I-V and variations are popular, allowing for passionate vocals. Drop-D tuning is common in heavier emo, but standard progressions work in any tuning. Bands like Dashboard Confessional and Jimmy Eat World exemplify this style.",
+      "output": "['Bm', 'G', 'D', 'A', 'Bm', 'G', 'D', 'A']",
+      "metadata": {
+        "genre": "emo/pop-punk",
+        "key": "D major",
+        "length_bars": 8,
+        "tempo_range": "140-180 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["emotional", "intense", "cathartic"]
+      }
+    },
+    {
+      "instruction": "Generate a 4-bar classical period cadence in C major demonstrating perfect authentic resolution.",
+      "context": "Classical period harmony (1750-1820) emphasizes functional tonality with clear resolutions. The perfect authentic cadence (V-I with both chords in root position and tonic in the soprano) is the strongest resolution. Classical composers like Mozart and Haydn built entire movements around establishing and delaying these cadences. The ii-V-I progression is fundamental, with the supertonic (ii) chord preparing the dominant.",
+      "output": "['C', 'Dm', 'G', 'C']",
+      "metadata": {
+        "genre": "classical period",
+        "key": "C major",
+        "length_bars": 4,
+        "tempo_range": "variable",
+        "time_signature": "4/4",
+        "emotion_tags": ["resolved", "balanced", "formal"]
+      }
+    },
+    {
+      "instruction": "Create a 6-bar romantic period progression in E major with chromatic mediant relationships.",
+      "context": "Romantic period composers (1820-1900) expanded harmonic vocabulary beyond classical norms. Chromatic mediants are chords whose roots are a third apart but don't share the same key signature, creating colorful, unexpected shifts. Composers like Schubert and Brahms used these to create emotional depth and ambiguity. The progression from E major to C major is a chromatic mediant relationship (major chords with roots a major third apart).",
+      "output": "['E', 'C', 'Am', 'F', 'G', 'E']",
+      "metadata": {
+        "genre": "romantic period",
+        "key": "E major",
+        "length_bars": 6,
+        "tempo_range": "variable",
+        "time_signature": "4/4",
+        "emotion_tags": ["expressive", "colorful", "dramatic"]
+      }
+    },
+    {
+      "instruction": "Write an 8-bar impressionist progression in Db major using whole tone and pentatonic influences.",
+      "context": "Impressionist composers like Debussy and Ravel broke from traditional functional harmony, using parallel chord movement, whole tone scales, and pentatonic scales to create atmospheric, ambiguous tonality. Major 7th and 9th chords are common, and progressions avoid strong cadences. The result is a floating, dreamlike quality where chords exist more for their color than their function.",
+      "output": "['Dbmaj9', 'Ebmaj9', 'Abmaj9', 'Bbm7', 'Gbmaj7', 'Fm7', 'Ebm7', 'Dbmaj9']",
+      "metadata": {
+        "genre": "impressionist",
+        "key": "Db major",
+        "length_bars": 8,
+        "tempo_range": "variable",
+        "time_signature": "4/4",
+        "emotion_tags": ["atmospheric", "floating", "colorful"]
+      }
+    },
+    {
+      "instruction": "Generate a 4-bar baroque sequence in G minor with descending circle of fifths motion.",
+      "context": "Baroque music (1600-1750) makes extensive use of sequences, patterns repeated at different pitch levels. The descending circle of fifths is fundamental to baroque harmony, where each chord's root descends by a fifth (or rises by a fourth). This creates strong forward motion. Composers like Bach used this in everything from fugues to dance suites. Harmonic rhythm is typically regular, with chords changing every 1-2 beats.",
+      "output": "['Gm', 'Cm', 'F', 'Bb', 'Eb', 'A', 'D', 'Gm']",
+      "metadata": {
+        "genre": "baroque",
+        "key": "G minor",
+        "length_bars": 4,
+        "tempo_range": "variable",
+        "time_signature": "4/4",
+        "emotion_tags": ["formal", "driving", "contrapuntal"]
+      }
+    },
+    {
+      "instruction": "Create a 16-bar progressive rock progression in F# minor with complex time signature changes.",
+      "context": "Progressive rock, exemplified by bands like Yes, Genesis, and Rush, features complex harmony and rhythm. Progressions often include modal interchange, extended chords, and unexpected modulations. Time signatures may change frequently. The genre blends classical influence with rock energy, using sophisticated chord structures while maintaining a rock instrumentation. Sus chords and added tones create ambiguity.",
+      "output": "['F#m', 'A', 'E', 'C#', 'F#m', 'D', 'E', 'F#m', 'Bm', 'A', 'G#m7b5', 'C#7', 'F#m', 'E', 'D', 'C#']",
+      "metadata": {
+        "genre": "progressive rock",
+        "key": "F# minor",
+        "length_bars": 16,
+        "tempo_range": "variable",
+        "time_signature": "7/8, 4/4 mixed",
+        "emotion_tags": ["complex", "dramatic", "adventurous"]
+      }
+    },
+    {
+      "instruction": "Write a 4-bar Delta blues progression in E using dominant 7th chords throughout.",
+      "context": "Delta blues, originating in the Mississippi Delta, is raw and emotionally direct. Unlike 12-bar blues, Delta blues may use simpler or irregular forms. Dominant 7th chords on all scale degrees create constant tension and the characteristic blues sound. The use of I7, IV7, and V7 chords, all containing the blues' signature flattened 7th, gives a gritty, unresolved quality perfect for slide guitar and expressive vocals.",
+      "output": "['E7', 'E7', 'A7', 'E7']",
+      "metadata": {
+        "genre": "delta blues",
+        "key": "E major/blues",
+        "length_bars": 4,
+        "tempo_range": "60-100 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["raw", "gritty", "emotional"]
+      }
+    },
+    {
+      "instruction": "Generate an 8-bar Afrobeat progression in F# minor with polyrhythmic foundation.",
+      "context": "Afrobeat, pioneered by Fela Kuti, blends West African music with jazz and funk. Progressions are often minimal, with one or two chords sustained for long periods to support complex polyrhythmic interplay between instruments. Minor pentatonic scales and modal harmony are common. The sparse harmonic movement allows interlocking rhythmic patterns in the guitars, horns, and percussion to create hypnotic grooves.",
+      "output": "['F#m7', 'F#m7', 'F#m7', 'F#m7', 'Bm7', 'Bm7', 'F#m7', 'F#m7']",
+      "metadata": {
+        "genre": "afrobeat",
+        "key": "F# minor",
+        "length_bars": 8,
+        "tempo_range": "100-120 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["hypnotic", "groovy", "polyrhythmic"]
+      }
+    },
+    {
+      "instruction": "Create a 4-bar dubstep progression in G# minor with heavy, dark character.",
+      "context": "Dubstep emphasizes bass weight and rhythm over complex harmony. Progressions are minimal, often just two chords creating tension and release in sync with the bass drops. Minor keys and power chords (root and fifth) are common. The harmonic simplicity provides foundation for wobble bass, syncopated drums, and sound design. The half-time feel at 140 BPM gives dubstep its characteristic heavy groove.",
+      "output": "['G#m', 'G#m', 'E', 'F#']",
+      "metadata": {
+        "genre": "dubstep",
+        "key": "G# minor",
+        "length_bars": 4,
+        "tempo_range": "135-145 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["heavy", "dark", "aggressive"]
+      }
+    },
+    {
+      "instruction": "Write an 8-bar bluegrass progression in G major with traditional I-IV-V structure.",
+      "context": "Bluegrass, rooted in Appalachian folk music, uses simple major key progressions based on I-IV-V relationships. These progressions support fast instrumental virtuosity and close vocal harmonies. The simplicity allows for improvisation on mandolin, banjo, fiddle, and guitar. Songs often modulate to closely related keys. The bright, major tonality reflects bluegrass's connection to traditional mountain music.",
+      "output": "['G', 'G', 'C', 'G', 'G', 'D', 'G', 'D']",
+      "metadata": {
+        "genre": "bluegrass",
+        "key": "G major",
+        "length_bars": 8,
+        "tempo_range": "140-200 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["bright", "energetic", "traditional"]
+      }
+    },
+    {
+      "instruction": "Generate a 4-bar acid house progression in E minor with minimal hypnotic movement.",
+      "context": "Acid house, born in 1980s Chicago, is characterized by the squelchy sound of the Roland TB-303 bass synthesizer. Progressions are extremely simple, often just one or two chords, creating a hypnotic foundation for the iconic acid bassline and four-on-the-floor beat. The repetitive nature induces a trance-like state on the dancefloor. Minor keys add darkness to the psychedelic atmosphere.",
+      "output": "['Em', 'Em', 'Em', 'Em']",
+      "metadata": {
+        "genre": "acid house",
+        "key": "E minor",
+        "length_bars": 4,
+        "tempo_range": "120-130 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["hypnotic", "psychedelic", "minimal"]
+      }
+    },
+    {
+      "instruction": "Create a 12-bar smooth jazz progression in Eb major with lush extended harmony.",
+      "context": "Smooth jazz emphasizes accessible melodies over complex bebop harmony, but still uses sophisticated voicings. Extended chords (9ths, 11ths, 13ths) create a lush, polished sound. Progressions are often based on jazz standards but simplified, with slower harmonic rhythm. The genre prioritizes groove and atmosphere, making it popular for background listening. Artists like George Benson and Grover Washington Jr. exemplify this style.",
+      "output": "['Ebmaj9', 'Fm7', 'Bb13', 'Ebmaj9', 'Abmaj9', 'Gm7', 'Cm7', 'Fm7', 'Bb7b9', 'Ebmaj7', 'Ab13', 'Bb13']",
+      "metadata": {
+        "genre": "smooth jazz",
+        "key": "Eb major",
+        "length_bars": 12,
+        "tempo_range": "90-110 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["lush", "sophisticated", "relaxed"]
+      }
+    },
+    {
+      "instruction": "Generate an 8-bar ECM-style jazz progression in F minor with sparse, Nordic atmosphere.",
+      "context": "ECM (Edition of Contemporary Music) style, pioneered by producer Manfred Eicher, features spacious arrangements, crystalline sound, and Nordic/folk influences. Progressions use modal harmony with minimal movement, often sustaining chords for multiple bars. Suspended chords and quartal harmony (chords built in fourths) create ambiguity. Artists like Keith Jarrett, Jan Garbarek, and Pat Metheny on ECM favor this introspective, chamber-like approach to jazz.",
+      "output": "['Fm7', 'Fm7', 'Ebmaj7', 'Ebmaj7', 'Bbsus4', 'Bbsus4', 'Absus2', 'Absus2']",
+      "metadata": {
+        "genre": "ECM jazz",
+        "key": "F minor",
+        "length_bars": 8,
+        "tempo_range": "60-100 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["sparse", "introspective", "Nordic"]
+      }
+    },
+    {
+      "instruction": "Write a 4-bar grunge progression in Drop D tuning with heavy, distorted character.",
+      "context": "Grunge, emerging from Seattle in the late 1980s, uses simple power chord progressions with heavy distortion. Drop D tuning (D-A-D-G-B-E) allows for thick, low-end power chords. Progressions often use chromatic movement and avoid traditional I-IV-V patterns, creating a sludgy, disaffected sound. Bands like Nirvana, Soundgarden, and Alice in Chains exemplify the genre's mixture of punk aggression and metal heaviness with melodic sensibility.",
+      "output": "['D5', 'Bb5', 'C5', 'G5']",
+      "metadata": {
+        "genre": "grunge",
+        "key": "D minor (Drop D)",
+        "length_bars": 4,
+        "tempo_range": "80-140 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["heavy", "sludgy", "angsty"]
+      }
+    },
+    {
+      "instruction": "Create an 8-bar shoegaze progression in A major with dreamy, washedout texture.",
+      "context": "Shoegaze, named for performers' downward gaze at effects pedals, features layers of distorted, reverb-drenched guitars creating a wall of sound. Progressions are often simple and repetitive, buried under effects. Major and suspended chords create dreamy ambiguity. Bands like My Bloody Valentine and Slowdive use I-VII-IV patterns or modal progressions that avoid strong resolutions, maintaining an ethereal, floating quality where harmony becomes texture.",
+      "output": "['A', 'G', 'D', 'A', 'A', 'G', 'F#m', 'E']",
+      "metadata": {
+        "genre": "shoegaze",
+        "key": "A major",
+        "length_bars": 8,
+        "tempo_range": "100-140 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["dreamy", "ethereal", "washedout"]
+      }
+    },
+    {
+      "instruction": "Generate a 16-bar space rock progression in E minor with cosmic, expansive atmosphere.",
+      "context": "Space rock, pioneered by Hawkwind and Pink Floyd, creates cosmic soundscapes through repetitive progressions and extensive effects. Progressions are minimal and hypnotic, often modal or pentatonic, sustained for long periods to support improvisation and sound experimentation. Minor keys and droning bass notes create darkness and vastness. The genre emphasizes atmosphere over traditional song structure, evoking the infinite expanse of space.",
+      "output": "['Em', 'Em', 'D', 'D', 'C', 'C', 'Em', 'Em', 'Em', 'Em', 'A', 'A', 'G', 'G', 'Em', 'Em']",
+      "metadata": {
+        "genre": "space rock",
+        "key": "E minor",
+        "length_bars": 16,
+        "tempo_range": "80-120 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["cosmic", "expansive", "hypnotic"]
+      }
+    },
+    {
+      "instruction": "Write a 4-bar krautrock progression in A minor with motorik, repetitive drive.",
+      "context": "Krautrock (German experimental rock of the 1970s) uses simple, repetitive progressions to support the motorik beat—a steady, driving 4/4 rhythm. Bands like Neu! and Can used minimal harmonic changes, often just one or two chords, creating a hypnotic, mechanical groove. The repetition and minimal harmony allowed for extended improvisations and exploration of rhythm and texture over traditional song structure.",
+      "output": "['Am', 'Am', 'G', 'Am']",
+      "metadata": {
+        "genre": "krautrock",
+        "key": "A minor",
+        "length_bars": 4,
+        "tempo_range": "120-140 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["motorik", "hypnotic", "mechanical"]
+      }
+    },
+    {
+      "instruction": "Create an 8-bar post-rock progression in C# minor with building, cinematic tension.",
+      "context": "Post-rock uses rock instrumentation to create non-rock music, often instrumental and cinematic. Progressions build slowly over many bars, adding layers and dynamics. Bands like Explosions in the Sky and Godspeed You! Black Emperor use simple chord progressions that repeat and evolve, creating emotional arcs from quiet to explosive. Minor keys and suspended chords maintain tension that releases in climactic moments.",
+      "output": "['C#m', 'A', 'E', 'B', 'C#m', 'A', 'E', 'F#m']",
+      "metadata": {
+        "genre": "post-rock",
+        "key": "C# minor",
+        "length_bars": 8,
+        "tempo_range": "80-140 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["building", "cinematic", "epic"]
+      }
+    },
+    {
+      "instruction": "Generate a 4-bar stoner rock progression in C minor with heavy, doom-laden groove.",
+      "context": "Stoner rock/metal, influenced by Black Sabbath, uses downtuned guitars and slow tempos to create crushing, psychedelic heaviness. Progressions are simple, using power chords and minor keys. The slow harmonic rhythm and heavy distortion create a thick, oppressive atmosphere. Bands like Sleep and Electric Wizard sustain chords for multiple bars, allowing the sheer weight of the sound to dominate. Drop tunings add to the low-end emphasis.",
+      "output": "['Cm', 'Cm', 'Ab', 'Bb']",
+      "metadata": {
+        "genre": "stoner rock",
+        "key": "C minor",
+        "length_bars": 4,
+        "tempo_range": "60-90 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["heavy", "doomy", "psychedelic"]
+      }
+    },
+    {
+      "instruction": "Write an 8-bar math rock progression in F# major with complex, angular rhythms.",
+      "context": "Math rock features complex time signatures, angular melodies, and unconventional progressions. Influenced by progressive rock and post-hardcore, bands like Don Caballero and Battles use intricate interplay between instruments. Chord progressions may be simple but are obscured by rhythmic complexity and unusual phrase lengths. Clean guitar tones and tapping techniques are common. The genre prioritizes technical precision and compositional complexity.",
+      "output": "['F#', 'D#m', 'B', 'C#', 'F#', 'G#m', 'C#', 'B']",
+      "metadata": {
+        "genre": "math rock",
+        "key": "F# major",
+        "length_bars": 8,
+        "tempo_range": "120-180 BPM",
+        "time_signature": "7/8, 5/4 mixed",
+        "emotion_tags": ["complex", "angular", "technical"]
+      }
+    },
+    {
+      "instruction": "Create a 4-bar UK garage progression in D minor with syncopated bass movement.",
+      "context": "UK garage emerged in the 1990s, featuring shuffling, syncopated rhythms and heavy basslines. Progressions are simple, often just two or three chords, allowing the complex drum programming and bass to drive the track. Minor keys create a darker mood compared to house music. The genre emphasizes groove and danceability, with chord stabs and vocal samples playing crucial rhythmic roles alongside the harmony.",
+      "output": "['Dm', 'Dm', 'Bb', 'C']",
+      "metadata": {
+        "genre": "UK garage",
+        "key": "D minor",
+        "length_bars": 4,
+        "tempo_range": "130-140 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["syncopated", "groovy", "urban"]
+      }
+    },
+    {
+      "instruction": "Generate a 16-bar minimal techno progression in G minor with subtle, evolving texture.",
+      "context": "Minimal techno, pioneered by artists like Richie Hawtin and Robert Hood, strips electronic music to its essentials. Progressions are extremely sparse—often a single chord or two-chord vamp sustained throughout. The focus shifts from harmonic interest to subtle changes in timbre, rhythm, and texture. Minor tonality provides a dark foundation while repetition creates hypnotic, meditative states on the dancefloor.",
+      "output": "['Gm', 'Gm', 'Gm', 'Gm', 'Gm', 'Gm', 'Gm', 'Gm', 'Gm', 'Gm', 'Gm', 'Gm', 'Cm', 'Cm', 'Gm', 'Gm']",
+      "metadata": {
+        "genre": "minimal techno",
+        "key": "G minor",
+        "length_bars": 16,
+        "tempo_range": "125-135 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["minimal", "hypnotic", "subtle"]
+      }
+    },
+    {
+      "instruction": "Write an 8-bar synthwave progression in Cm with nostalgic 80s atmosphere.",
+      "context": "Synthwave recreates the sound of 1980s soundtracks and synth-pop, using analog synthesizers and nostalgic progressions. Minor keys predominate, creating a cinematic, sometimes melancholic mood reminiscent of films like Blade Runner. Progressions use power chords and simple patterns with heavy reverb and chorus effects. Artists like Kavinsky and Perturbator blend retro aesthetics with modern production.",
+      "output": "['Cm', 'Ab', 'Bb', 'Gm', 'Cm', 'Ab', 'Eb', 'Bb']",
+      "metadata": {
+        "genre": "synthwave",
+        "key": "C minor",
+        "length_bars": 8,
+        "tempo_range": "100-130 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["nostalgic", "cinematic", "retro"]
+      }
+    },
+    {
+      "instruction": "Create a 4-bar hardcore punk progression in A major with fast, aggressive energy.",
+      "context": "Hardcore punk accelerates punk's simplicity and aggression to extreme tempos. Progressions use power chords in rapid succession, often changing every bar or half-bar. The focus is on raw energy rather than harmonic sophistication. Bands like Black Flag and Minor Threat used I-IV-V patterns and chromatic movement at breakneck speeds. The simplicity allows vocalists to deliver rapid, shouted lyrics.",
+      "output": "['A5', 'D5', 'E5', 'D5']",
+      "metadata": {
+        "genre": "hardcore punk",
+        "key": "A major",
+        "length_bars": 4,
+        "tempo_range": "180-220 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["aggressive", "fast", "raw"]
+      }
+    },
+    {
+      "instruction": "Generate an 8-bar vaporwave progression in F major with slowed, nostalgic samples.",
+      "context": "Vaporwave deconstructs 1980s and 90s muzak, smooth jazz, and corporate music, often slowing samples and adding effects. When creating original progressions, vaporwave uses lush major 7th and 9th chords reminiscent of elevator music and early digital production. The ironic nostalgia for corporate aesthetics creates a surreal, dreamlike atmosphere. Progressions are smooth and non-threatening, evoking mall culture and early internet.",
+      "output": "['Fmaj7', 'Em7', 'Am7', 'Dm7', 'Gmaj7', 'Cmaj7', 'Fmaj7', 'Bbmaj7']",
+      "metadata": {
+        "genre": "vaporwave",
+        "key": "F major",
+        "length_bars": 8,
+        "tempo_range": "60-90 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["nostalgic", "surreal", "corporate"]
+      }
+    },
+    {
+      "instruction": "Write a 4-bar industrial metal progression in D minor with mechanical, aggressive texture.",
+      "context": "Industrial metal, pioneered by Ministry and Nine Inch Nails, combines metal's heaviness with electronic production and mechanical rhythms. Progressions are simple and repetitive, using power chords and minor tonality to create oppressive atmospheres. The focus is on rhythm, texture, and production rather than harmonic complexity. Chromatic movement and dissonance emphasize the genre's aggressive, dystopian aesthetic.",
+      "output": "['Dm', 'Dm', 'C', 'Bb']",
+      "metadata": {
+        "genre": "industrial metal",
+        "key": "D minor",
+        "length_bars": 4,
+        "tempo_range": "120-150 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["mechanical", "aggressive", "dystopian"]
+      }
+    },
+    {
+      "instruction": "Create a 12-bar midwest emo progression in G major with intricate, emotional guitar work.",
+      "context": "Midwest emo (late 1990s-2000s) features intricate guitar fingerpicking, math rock influences, and deeply personal lyrics. Progressions use major keys but create melancholic moods through voice leading and suspended chords. Bands like American Football and The Promise Ring use jazz chords and non-standard tunings. The harmonic sophistication combined with punk energy creates an intellectual yet emotional sound.",
+      "output": "['Gmaj7', 'Em7', 'Cmaj9', 'Dsus4', 'Gmaj7', 'Bm7', 'Am7', 'D6', 'Em7', 'Cmaj7', 'Am7', 'Dsus2']",
+      "metadata": {
+        "genre": "midwest emo",
+        "key": "G major",
+        "length_bars": 12,
+        "tempo_range": "120-150 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["intricate", "melancholic", "intellectual"]
+      }
+    },
+    {
+      "instruction": "Generate an 8-bar nu-jazz progression in Bb major with electronic and acoustic fusion.",
+      "context": "Nu-jazz (or jazztronica) blends jazz harmony and improvisation with electronic production, hip-hop beats, and house rhythms. Artists like St Germain and Jaga Jazzist use traditional jazz chord progressions but with modern production. Extended chords and ii-V-I movements are common, but the rhythmic feel borrows from electronic dance music. The result bridges acoustic jazz tradition with contemporary club culture.",
+      "output": "['Bbmaj9', 'Gm9', 'Cm9', 'F13', 'Bbmaj7', 'Ebmaj9', 'Dm7', 'G7#9']",
+      "metadata": {
+        "genre": "nu-jazz",
+        "key": "Bb major",
+        "length_bars": 8,
+        "tempo_range": "90-120 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["sophisticated", "modern", "groovy"]
+      }
+    },
+    {
+      "instruction": "Write a 4-bar dark ambient progression in F# minor with ominous, textural atmosphere.",
+      "context": "Dark ambient creates ominous soundscapes through sustained tones, drones, and minimal harmonic movement. When chords are present, they change extremely slowly, often every 4-8 bars. Minor keys and dissonant intervals create unease and darkness. Artists like Lustmord and Atrium Carceri focus on texture and atmosphere over melody or rhythm. The genre evokes abandoned spaces, cosmic horror, and psychological dread.",
+      "output": "['F#m', 'F#m', 'F#m', 'F#m']",
+      "metadata": {
+        "genre": "dark ambient",
+        "key": "F# minor",
+        "length_bars": 4,
+        "tempo_range": "variable/very slow",
+        "time_signature": "4/4",
+        "emotion_tags": ["ominous", "dark", "textural"]
+      }
+    },
+    {
+      "instruction": "Create an 8-bar future bass progression in E major with bright, emotional drops.",
+      "context": "Future bass features bright, synthesized chords with heavy sidechain compression creating a 'pumping' effect. Progressions use major keys and uplifting harmony, often with the I-V-vi-IV pattern or variations. The genre emerged in the 2010s with artists like Flume and Illenium, combining emotional melodies with powerful bass drops. Seventh chords and suspended chords add color while maintaining accessibility.",
+      "output": "['E', 'B', 'C#m', 'A', 'E', 'B', 'F#m', 'A']",
+      "metadata": {
+        "genre": "future bass",
+        "key": "E major",
+        "length_bars": 8,
+        "tempo_range": "140-170 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["bright", "emotional", "euphoric"]
+      }
+    },
+    {
+      "instruction": "Generate a 4-bar goth rock progression in A minor with dark, melancholic character.",
+      "context": "Goth rock, emerging from post-punk in the late 1970s, uses minor keys and dark atmospheres. Progressions are simple but moody, often using minor chords with occasional major chords for contrast. Bands like The Cure, Bauhaus, and Sisters of Mercy emphasize reverb-heavy guitars and bass-driven arrangements. The progressions support melancholic vocals and create a brooding, romantic darkness.",
+      "output": "['Am', 'F', 'C', 'G']",
+      "metadata": {
+        "genre": "goth rock",
+        "key": "A minor",
+        "length_bars": 4,
+        "tempo_range": "100-130 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["dark", "melancholic", "romantic"]
+      }
+    },
+    {
+      "instruction": "Write a 16-bar trance progression in C# minor with uplifting, anthemic build.",
+      "context": "Trance music creates emotional, euphoric experiences through repetitive progressions and building arrangements. Progressions typically use minor keys but resolve to major for uplifting moments. The genre emphasizes long builds and releases, with progressions repeating for 16-32 bars to create hypnotic states. Artists like Armin van Buuren and Paul van Dyk use simple chord patterns that support soaring melodies and breakdown/buildup structures.",
+      "output": "['C#m', 'A', 'E', 'B', 'C#m', 'A', 'E', 'B', 'C#m', 'A', 'F#m', 'B', 'C#m', 'A', 'E', 'B']",
+      "metadata": {
+        "genre": "trance",
+        "key": "C# minor",
+        "length_bars": 16,
+        "tempo_range": "128-140 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["uplifting", "euphoric", "anthemic"]
+      }
+    },
+    {
+      "instruction": "Create a simple 4-bar bebop blues in F major suitable for beginners.",
+      "context": "Bebop blues is a jazz approach to the 12-bar blues form. For beginners, a simple 4-bar turnaround uses basic dominant 7th chords with one common substitution. The F7 to Bb7 movement is the classic I-IV in blues. The Gm7-C7 ending is a ii-V that leads back to F, a fundamental jazz progression that appears in countless standards.",
+      "output": "['F7', 'Bb7', 'Gm7', 'C7']",
+      "metadata": {
+        "genre": "bebop",
+        "key": "F major",
+        "length_bars": 4,
+        "tempo_range": "140-180 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["swinging", "straightforward", "bluesy"],
+        "difficulty": "beginner"
+      }
+    },
+    {
+      "instruction": "Generate an advanced 8-bar bebop progression in Eb major with tritone substitutions and altered dominants.",
+      "context": "Advanced bebop uses sophisticated reharmonization techniques. Tritone substitutions replace dominant chords with dominants a tritone away (Db7 for G7). Altered dominants add b9, #9, #5, or b5 tensions. The progression includes chromatic voice leading through diminished chords and uses secondary dominants. This complexity allows for rich melodic improvisation and demonstrates mastery of jazz harmony.",
+      "output": "['Ebmaj7', 'Edim7', 'Fm7', 'E7', 'Ebmaj7', 'Ab7', 'Db7#11', 'Cm7b5/F7b9']",
+      "metadata": {
+        "genre": "bebop",
+        "key": "Eb major",
+        "length_bars": 8,
+        "tempo_range": "240-300 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["complex", "sophisticated", "virtuosic"],
+        "difficulty": "advanced"
+      }
+    },
+    {
+      "instruction": "Write a melancholic 8-bar trip-hop progression in E minor with downtempo feel.",
+      "context": "This variation focuses on the melancholic side of trip-hop, using minor key center throughout without tension-building. The progression descends chromatically in the bass, a common trip-hop technique. The use of major 7th chords against the minor tonality creates a bittersweet quality. Slower harmonic rhythm (2 bars per chord) supports the downtempo aesthetic and leaves space for sparse beats and atmospheric samples.",
+      "output": "['Em7', 'Em7', 'Dmaj7', 'Dmaj7', 'Cmaj7', 'Cmaj7', 'Bm7', 'Bm7']",
+      "metadata": {
+        "genre": "trip-hop",
+        "key": "E minor",
+        "length_bars": 8,
+        "tempo_range": "65-75 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["melancholic", "downtempo", "introspective"],
+        "difficulty": "intermediate"
+      }
+    },
+    {
+      "instruction": "Create a 4-bar upbeat pop progression in D major with major chord emphasis.",
+      "context": "This pop progression uses all major chords for maximum brightness and commercial appeal. The vi-IV-I-V pattern (Bm would be vi, but using B major instead) creates an especially uplifting sound common in contemporary pop-rock. This approach is used in songs that need to feel purely positive without any minor chord darkness. Perfect for summer anthems and feel-good tracks.",
+      "output": "['D', 'G', 'A', 'Bm']",
+      "metadata": {
+        "genre": "pop",
+        "key": "D major",
+        "length_bars": 4,
+        "tempo_range": "120-130 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["upbeat", "bright", "commercial"],
+        "difficulty": "beginner"
+      }
+    },
+    {
+      "instruction": "Generate a sophisticated 8-bar pop progression in A major with jazz-influenced extensions.",
+      "context": "Modern pop increasingly incorporates jazz harmony. This progression uses add9, maj7, and sus4 chords while maintaining pop sensibility. Artists like Ariana Grande, Charlie Puth, and Bruno Mars blend R&B/jazz sophistication with pop accessibility. The chromatic bass movement (A-G#-F#-E) creates smooth voice leading under changing chord qualities, demonstrating how pop can be harmonically rich without losing its catchiness.",
+      "output": "['Aadd9', 'C#m7', 'F#m7', 'Dmaj7', 'Bm7', 'Esus4', 'E', 'Asus2']",
+      "metadata": {
+        "genre": "pop",
+        "key": "A major",
+        "length_bars": 8,
+        "tempo_range": "95-110 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["sophisticated", "smooth", "contemporary"],
+        "difficulty": "advanced"
+      }
+    },
+    {
+      "instruction": "Write a basic 8-bar modal jazz progression in A Dorian for improvisation practice.",
+      "context": "Modal jazz for beginners should establish the mode clearly. A Dorian (A-B-C-D-E-F#-G) is one of the most common modes in jazz. This progression uses only two chords, both diatonic to A Dorian, sustained for long periods. The simplicity allows improvisers to explore the Dorian sound without worrying about rapid chord changes. The raised 6th (F#) distinguishes Dorian from natural minor.",
+      "output": "['Am7', 'Am7', 'Am7', 'Am7', 'D7', 'D7', 'Am7', 'Am7']",
+      "metadata": {
+        "genre": "modal jazz",
+        "key": "A Dorian",
+        "length_bars": 8,
+        "tempo_range": "120-140 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["modal", "open", "exploratory"],
+        "difficulty": "beginner"
+      }
+    },
+    {
+      "instruction": "Create an 8-bar progressive house progression in Am with filtered buildup technique.",
+      "context": "This variation demonstrates how progressive house builds tension through harmonic and textural development. The progression starts with the tonic, moves away through related chords, and builds to a dominant seventh (G7) before resolving. In production, this would be paired with increasing filter cutoff, rising white noise, and gradual addition of percussion elements. The Am-to-G7 resolution creates the satisfying drop moment.",
+      "output": "['Am', 'Am', 'F', 'F', 'C', 'C', 'G7', 'G7']",
+      "metadata": {
+        "genre": "progressive house",
+        "key": "A minor",
+        "length_bars": 8,
+        "tempo_range": "124-128 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["building", "filtered", "anticipatory"],
+        "difficulty": "intermediate"
+      }
+    },
+    {
+      "instruction": "Generate a 4-bar lo-fi hip-hop progression in C major with bright, nostalgic warmth.",
+      "context": "Not all lo-fi hip-hop is melancholic. This major key variation captures the nostalgic, sun-dappled side of lo-fi, reminiscent of Nujabes. Major 7th chords create warmth without excessive sweetness. The progression uses stepwise bass movement (C-D-E-F) which is smooth and pleasing. This brighter lo-fi aesthetic works well for study music and positive, reflective moods while maintaining the genre's characteristic jazzy sophistication.",
+      "output": "['Cmaj7', 'Dm7', 'Em7', 'Fmaj7']",
+      "metadata": {
+        "genre": "lo-fi hip-hop",
+        "key": "C major",
+        "length_bars": 4,
+        "tempo_range": "80-95 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["warm", "nostalgic", "bright"],
+        "difficulty": "beginner"
+      }
+    },
+    {
+      "instruction": "Write a complex 8-bar lo-fi hip-hop progression in G minor with chromatic voice leading.",
+      "context": "Advanced lo-fi incorporates complex jazz reharmonization. This progression uses chromatic mediants (Gm to Eb), secondary dominants (A7 to Dm7), and unexpected major chords (Db major as bV). The result is harmonically sophisticated while maintaining lo-fi's dreamy quality. These techniques, borrowed from jazz and impressionism, create the lush, unpredictable harmonic landscape found in producers like Idealism and Quickly, Quickly.",
+      "output": "['Gm9', 'Ebmaj7', 'Dm7', 'A7b9', 'Dbmaj7', 'Cm7', 'F7#5', 'Bbmaj7']",
+      "metadata": {
+        "genre": "lo-fi hip-hop",
+        "key": "G minor",
+        "length_bars": 8,
+        "tempo_range": "75-88 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["complex", "lush", "sophisticated"],
+        "difficulty": "advanced"
+      }
+    },
+    {
+      "instruction": "Create a minimal 2-bar trap progression in G minor for aggressive verses.",
+      "context": "Trap can be extremely minimal, using just two chords alternating rapidly. This creates space for complex hi-hat patterns and 808 bass slides. The i-VII progression (Gm-F) is one of trap's most common patterns, borrowed from rock and metal. The simplicity allows the production, flow, and energy to dominate. Producers like Metro Boomin and Southside often use this minimalist approach for hard-hitting verses.",
+      "output": "['Gm', 'F']",
+      "metadata": {
+        "genre": "trap",
+        "key": "G minor",
+        "length_bars": 2,
+        "tempo_range": "140-160 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["minimal", "aggressive", "sparse"],
+        "difficulty": "beginner"
+      }
+    },
+    {
+      "instruction": "Generate an 8-bar melodic trap progression in F# minor with emotional chord changes.",
+      "context": "Melodic trap, pioneered by producers like Nick Mira and KC Supreme, uses more harmonic movement and emotion. Minor keys with major chord borrowings create bittersweet feelings. This progression includes the characteristic i-VI-III-VII pattern but extends it with additional chords including a sus4 for extra tension. The emotional depth supports melodic rappers and singers in the emo-rap subgenre.",
+      "output": "['F#m', 'D', 'A', 'E', 'F#m', 'Bm', 'C#sus4', 'C#']",
+      "metadata": {
+        "genre": "trap",
+        "key": "F# minor",
+        "length_bars": 8,
+        "tempo_range": "130-145 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["melodic", "emotional", "bittersweet"],
+        "difficulty": "intermediate"
+      }
+    },
+    {
+      "instruction": "Write a bright 4-bar reggae progression in C major with ska influence.",
+      "context": "Upbeat reggae with ska influence uses major chords in bright keys. This I-IV-vi-V progression creates a bouncy, positive feel perfect for upstroke guitar skanking. The faster end of reggae tempos borders on ska territory. Artists like Bob Marley's more upbeat tracks and modern reggae-pop use this cheerful harmonic approach. The progression supports messages of love, unity, and positivity.",
+      "output": "['C', 'F', 'Am', 'G']",
+      "metadata": {
+        "genre": "reggae",
+        "key": "C major",
+        "length_bars": 4,
+        "tempo_range": "85-95 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["bright", "bouncy", "positive"],
+        "difficulty": "beginner"
+      }
+    },
+    {
+      "instruction": "Create an 8-bar roots reggae progression in E minor with dub influence.",
+      "context": "Roots reggae uses minor keys for deeper, more conscious themes. This progression emphasizes the IV-I movement (Am-Em) central to reggae harmony. The inclusion of the flatted VII (D) is characteristic of the genre. Dub influence means this progression would have extensive reverb, delay, and space for instrumental versions. The darker tonality supports spiritual and political lyrics found in conscious reggae.",
+      "output": "['Em', 'Am', 'Em', 'Bm', 'Em', 'D', 'Am', 'Em']",
+      "metadata": {
+        "genre": "reggae",
+        "key": "E minor",
+        "length_bars": 8,
+        "tempo_range": "70-80 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["deep", "conscious", "roots"],
+        "difficulty": "intermediate"
+      }
+    },
+    {
+      "instruction": "Generate a 4-bar neo-soul progression in D major with gospel influence.",
+      "context": "Neo-soul often draws from gospel harmony, which uses plagal (IV-I) cadences and rich extended chords. This progression in a major key creates an uplifting, spiritual feeling. The use of dominant 13th chords and major 9ths adds sophistication while maintaining accessibility. Artists like Jill Scott and Musiq Soulchild use these gospel-influenced progressions to create uplifting, affirmative neo-soul.",
+      "output": "['Dmaj9', 'G13', 'Em7', 'A7#9']",
+      "metadata": {
+        "genre": "neo-soul",
+        "key": "D major",
+        "length_bars": 4,
+        "tempo_range": "85-95 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["uplifting", "spiritual", "gospel-influenced"],
+        "difficulty": "intermediate"
+      }
+    },
+    {
+      "instruction": "Write a 16-bar ambient progression in F minor with extremely slow harmonic rhythm.",
+      "context": "Deep ambient music can sustain single chords for very long periods, creating a sense of timelessness. This progression changes chords only every 4 bars, allowing each harmony to fully resonate and develop through timbral evolution rather than harmonic change. The use of sus2 chords removes the defining third, creating maximum ambiguity. This approach is used in sound healing and meditation music.",
+      "output": "['Fm', 'Fm', 'Fm', 'Fm', 'Dbsus2', 'Dbsus2', 'Dbsus2', 'Dbsus2', 'Absus2', 'Absus2', 'Absus2', 'Absus2', 'Ebsus2', 'Ebsus2', 'Ebsus2', 'Ebsus2']",
+      "metadata": {
+        "genre": "ambient",
+        "key": "F minor",
+        "length_bars": 16,
+        "tempo_range": "40-60 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["meditative", "timeless", "deep"],
+        "difficulty": "beginner"
+      }
+    },
+    {
+      "instruction": "Create an 8-bar funk progression in Dm with syncopated chord hits.",
+      "context": "Funk progressions can be more harmonically active while maintaining the groove. This progression uses the Dorian mode (Dm with major VI and VII), giving a funkier sound than pure minor. The chord changes occur on syncopated beats (anticipating the downbeat), creating rhythmic tension. James Brown, Tower of Power, and Vulfpeck exemplify this groovier, more chord-active funk style.",
+      "output": "['Dm7', 'G7', 'Dm7', 'Am7', 'Dm7', 'Bb7', 'C7', 'Dm7']",
+      "metadata": {
+        "genre": "funk",
+        "key": "D Dorian",
+        "length_bars": 8,
+        "tempo_range": "100-115 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["syncopated", "active", "grooving"],
+        "difficulty": "intermediate"
+      }
+    },
+    {
+      "instruction": "Generate a 4-bar indie rock progression in E major with suspended chord color.",
+      "context": "Indie rock frequently uses suspended chords to create a more open, less resolved sound. This progression uses Esus2 and Asus2 chords, which remove the defining third and create ambiguity between major and minor. This technique is common in bands like The National, Bon Iver, and Fleet Foxes, creating an introspective, yearning quality. The suspended chords also blend well with effects pedals and reverb.",
+      "output": "['Esus2', 'Asus2', 'C#m', 'Bsus4']",
+      "metadata": {
+        "genre": "indie rock",
+        "key": "E major",
+        "length_bars": 4,
+        "tempo_range": "115-130 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["open", "introspective", "suspended"],
+        "difficulty": "beginner"
+      }
+    },
+    {
+      "instruction": "Write an 8-bar alternative indie rock progression in B minor with modal mixture.",
+      "context": "More adventurous indie rock uses modal mixture (borrowing chords from parallel major/minor). This progression in B minor borrows the bVII (A major) and bVI (G major) from B Dorian/minor, creating a darker alternative rock sound. The unexpected major chords against minor tonality create the bittersweet quality found in bands like Radiohead, The Smiths, and Arcade Fire.",
+      "output": "['Bm', 'G', 'D', 'A', 'Bm', 'Em', 'F#', 'G']",
+      "metadata": {
+        "genre": "indie rock",
+        "key": "B minor",
+        "length_bars": 8,
+        "tempo_range": "130-150 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["alternative", "bittersweet", "dynamic"],
+        "difficulty": "intermediate"
+      }
+    },
+    {
+      "instruction": "Create a 4-bar gospel progression in Eb major with call-and-response structure.",
+      "context": "Traditional gospel uses strong I-IV-V relationships with added embellishments. This progression demonstrates the classic gospel turnaround with dominant movements creating powerful forward motion. The use of seventh chords on all degrees adds richness. In performance, this would support call-and-response vocals between lead singer and choir, with extensive vocal improvisation and runs over the chord changes.",
+      "output": "['Eb', 'Ab7', 'Bb7', 'Eb']",
+      "metadata": {
+        "genre": "gospel",
+        "key": "Eb major",
+        "length_bars": 4,
+        "tempo_range": "75-90 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["traditional", "powerful", "call-and-response"],
+        "difficulty": "beginner"
+      }
+    },
+    {
+      "instruction": "Generate an 8-bar contemporary gospel progression in G major with jazz harmony.",
+      "context": "Modern gospel incorporates sophisticated jazz harmony while maintaining spiritual intensity. This progression uses extended chords (9ths, 11ths, 13ths) and chromatic voice leading. The secondary dominants (D7 to Gmaj7) and tritone substitution create harmonic complexity. Artists like Kirk Franklin, Tye Tribbett, and Israel Houghton blend traditional gospel spirit with contemporary R&B and jazz sophistication.",
+      "output": "['Gmaj9', 'Em9', 'Am11', 'D13', 'Gmaj7', 'C#m7b5', 'Cmaj7', 'Bm7/E7']",
+      "metadata": {
+        "genre": "gospel",
+        "key": "G major",
+        "length_bars": 8,
+        "tempo_range": "90-110 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["contemporary", "sophisticated", "uplifting"],
+        "difficulty": "advanced"
+      }
+    },
+    {
+      "instruction": "Write a 2-bar flamenco cadence in A Phrygian demonstrating andalusian cadence.",
+      "context": "The Andalusian cadence (iv-III-II-I in Phrygian) is the most characteristic flamenco progression. In A Phrygian this is Dm-C-Bb-A. The lowered 2nd degree (Bb) is what makes Phrygian sound distinctly Spanish. This compact 2-bar version would be repeated extensively, with flamenco guitar techniques (rasgueado, picado) and palmas (handclaps) adding rhythmic complexity. The cadence is used in countless flamenco palos (forms).",
+      "output": "['Dm', 'C', 'Bb', 'A']",
+      "metadata": {
+        "genre": "flamenco",
+        "key": "A Phrygian",
+        "length_bars": 2,
+        "tempo_range": "120-180 BPM",
+        "time_signature": "12/8",
+        "emotion_tags": ["traditional", "Spanish", "cadential"],
+        "difficulty": "beginner"
+      }
+    },
+    {
+      "instruction": "Create an 8-bar liquid drum and bass progression in D minor with smooth, melodic feel.",
+      "context": "Liquid drum and bass is the melodic, soulful side of DnB. This progression uses smoother chord changes and jazz-influenced harmony compared to darker DnB. The use of major 7th chords against minor tonality creates the liquid sound's characteristic warmth. Artists like Calibre, Netsky, and High Contrast use these more musical progressions. The progression changes more frequently than dark DnB, supporting vocal and melodic elements.",
+      "output": "['Dm7', 'Bbmaj7', 'Fmaj7', 'Cmaj7', 'Dm7', 'Am7', 'Gm7', 'A7']",
+      "metadata": {
+        "genre": "drum and bass",
+        "key": "D minor",
+        "length_bars": 8,
+        "tempo_range": "170-180 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["liquid", "melodic", "smooth"],
+        "difficulty": "intermediate"
+      }
+    },
+    {
+      "instruction": "Generate a 4-bar neurofunk drum and bass progression in F minor with dark, sci-fi atmosphere.",
+      "context": "Neurofunk is the darkest, most technical DnB subgenre. Progressions are minimal and ominous, using suspended and diminished chords for maximum tension. The focus is on sound design, complex bass resampling, and aggressive drums rather than harmony. Producers like Noisia, Phace, and Black Sun Empire use sparse progressions that create a dystopian, sci-fi atmosphere through minor keys and dissonant intervals.",
+      "output": "['Fm', 'Fm', 'Dbdim', 'Fm']",
+      "metadata": {
+        "genre": "drum and bass",
+        "key": "F minor",
+        "length_bars": 4,
+        "tempo_range": "170-180 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["dark", "technical", "neurofunk"],
+        "difficulty": "beginner"
+      }
+    },
+    {
+      "instruction": "Write a 4-bar modern country progression in A major with pop influence.",
+      "context": "Modern country-pop uses more sophisticated progressions than traditional country, incorporating pop production and songwriting techniques. This progression uses the vi-IV-I-V pattern (F#m-D-A-E) popularized in pop music. The addition of suspended and added chords makes it more contemporary. Artists like Kacey Musgraves, Maren Morris, and Keith Urban blend country instrumentation with pop harmony and production.",
+      "output": "['F#m7', 'D', 'Asus2', 'E']",
+      "metadata": {
+        "genre": "country",
+        "key": "A major",
+        "length_bars": 4,
+        "tempo_range": "110-125 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["modern", "pop-influenced", "polished"],
+        "difficulty": "beginner"
+      }
+    },
+    {
+      "instruction": "Create an 8-bar outlaw country progression in E major with blues influence.",
+      "context": "Outlaw country, associated with Willie Nelson and Waylon Jennings, has a bluesier, rougher edge than Nashville country. This progression incorporates dominant 7th chords throughout (a blues characteristic) and uses the bVII chord (D major) borrowed from mixolydian mode. The result is earthier and more rock-influenced. The progression supports storytelling lyrics about life outside conventional society.",
+      "output": "['E7', 'A7', 'E7', 'B7', 'A7', 'D', 'E7', 'B7']",
+      "metadata": {
+        "genre": "country",
+        "key": "E major",
+        "length_bars": 8,
+        "tempo_range": "100-130 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["outlaw", "bluesy", "rough"],
+        "difficulty": "intermediate"
+      }
+    },
+    {
+      "instruction": "Generate an 8-bar deep house progression in G minor with soulful, hypnotic quality.",
+      "context": "Deep house emphasizes atmosphere and groove over energy. This progression uses minor keys and seventh chords to create a sophisticated, after-hours club vibe. The slower harmonic rhythm and use of suspended chords creates a hypnotic, soulful quality. Artists like Larry Heard, Kerri Chandler, and Moodymann use these jazz-influenced progressions. The depth comes from harmonic sophistication, not complexity.",
+      "output": "['Gm7', 'Gm7', 'Cm7', 'Cm7', 'Dm7', 'Dm7', 'Ebmaj7', 'Ebmaj7']",
+      "metadata": {
+        "genre": "tech house",
+        "key": "G minor",
+        "length_bars": 8,
+        "tempo_range": "118-125 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["deep", "soulful", "after-hours"],
+        "difficulty": "intermediate"
+      }
+    },
+    {
+      "instruction": "Write a 4-bar salsa progression in C major with authentic clave feel.",
+      "context": "Salsa uses relatively simple progressions that support complex polyrhythmic percussion and energetic horn arrangements. This I-IV-V-I progression in C major is fundamental to salsa. The real complexity is in the clave rhythm (3-2 or 2-3) that governs all other instruments. Pianists play montuno patterns over these changes while timbales, congas, and bongos create interlocking rhythms. Authentic salsa prioritizes rhythm over harmonic complexity.",
+      "output": "['C', 'F', 'G7', 'C']",
+      "metadata": {
+        "genre": "latin jazz",
+        "key": "C major",
+        "length_bars": 4,
+        "tempo_range": "180-220 BPM",
+        "time_signature": "4/4",
+        "emotion_tags": ["energetic", "danceable", "percussive"],
+        "difficulty": "beginner"
+      }
+    },
+    {
+      "instruction": "Create a 4-bar samba progression in D minor with Brazilian jazz harmony.",
+      "context": "Samba uses more sophisticated harmony than salsa, with Brazilian jazz influence. This progression in D minor demonstrates typical samba changes with the characteristic ii-V-i in minor. The use of altered dominants (A7b9) and the movement through relative major (F major) creates the sophisticated yet danceable quality. Antonio Carlos Jobim's compositions exemplify this blend of complex harmony and irresistible rhythm.",
+      "output": "['Dm6', 'Gm7', 'A7b9', 'Dm6']",
+      "metadata": {
+        "genre": "latin jazz",
+        "key": "D minor",
+        "length_bars": 4,
+        "tempo_range": "160-200 BPM",
+        "time_signature": "2/4",
+        "emotion_tags": ["sophisticated", "Brazilian", "jazzy"],
+        "difficulty": "intermediate"
+      }
+    }
+]
